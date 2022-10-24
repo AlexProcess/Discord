@@ -1,0 +1,103 @@
+footer{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  background-color: #22262A;
+  .footer__container{
+    gap: 20px;
+    .title__footer{
+      margin-top: 20px;
+      font-size: 40px;
+      max-width: 60%;
+      margin-left: 24px;
+      color: #5965F3;
+      font-weight: 700;
+      width: 30%;
+    }
+
+    .fa-twitter{
+      object-fit: cover;
+      height: 50px;
+      color: #fff;
+      font-size: 22px;
+      margin-top: 15px;
+      margin-left: 24px;
+    }
+    .fa-facebook-official{
+      object-fit: cover;
+      margin-left: 24px;
+      font-size: 22px;
+      margin-top: 15px;
+      height: 50px;
+      color: #fff;
+    }
+    .fa-instagram{
+      object-fit: cover;
+      height: 50px;
+      font-size: 22px;
+      margin-top: 15px;
+      margin-left: 24px;
+      color: #fff;
+    }
+    .fa-youtube-play{
+      object-fit: cover;
+      font-size: 22px;
+      margin-top: 15px;
+      color: #fff;
+      margin-left: 24px;
+    }
+
+  }
+}
+
+.footer-list-father__container{
+    display: flex;
+    border-bottom: #5965F3 solid 1px;
+    gap: 80px;
+
+
+}
+
+.first-word__list{
+  margin-top: 20px;
+  color: #5965F3;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+
+.average-li__word{
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.average-li__word:hover{
+  border-bottom: #fff solid 1px;
+}
+
+
+.last-box__contain{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+.footer-list__container{
+  display: flex;
+  width: 70%;
+}
+
+.go-app_discord{
+  margin-top: 20px;
+}
+
+
+.logo-footer{
+  object-fit: contain;
+}

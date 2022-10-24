@@ -1,0 +1,98 @@
+header{
+  background-color: #404EED;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+
+
+nav{
+display: flex;
+justify-content: center;
+}
+
+.navbar-contain{
+  display: flex;
+  flex-direction: row;
+
+}
+.navbar__links{
+  margin-top:  30px;
+  margin-left: 38px;
+  font-weight: 600;
+}
+.navbar__links:hover{
+  border-bottom: 1px solid #fff;
+}
+
+.hero-textand__btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.b__title{
+  display: flex;
+  color: #fff;
+  font-size: 56px;
+  margin-top: 100px;
+}
+
+.b__text{
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 25px;
+  max-width: 53%;
+
+}
+
+
+.hero-banner__right{
+position: absolute;
+right: 1px;
+bottom: 1px;
+object-fit: cover;
+height: 70%;
+}
+
+.hero-banner__left{
+position: absolute;
+left: 1px;
+bottom: 1px;
+object-fit: cover;
+height: 65%;
+}
+.hero-banner__center{
+  position: absolute;
+  bottom: 1px;
+  color: rgba(73, 73, 73, 0.671);
+  width: 65%;
+  height: 25%;
+
+}
+.trash__container{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+gap: 40px;
+}
+
+
+
+.navbar__openapp{
+  margin-top: 15px ;
+  margin-left: 30px;
+}
+
+
+.go-app__btn{
+  letter-spacing: 2.5;
+  height: 15px;
+  font-size: 13px;
+}
+
+.b-logo{
+  margin-top: 15px;
+}
